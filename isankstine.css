@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.qr-code {
+    width: 150px;
+}
+
+.left-line hr {
+    width: 300px;
+    float: left;
+}
+
+.red-alert {
+    color: red;
+}
+
+.table-head,
+.table-bottom {
+    background-color: sandybrown;
+    border: none;
+}
+
+.table-items {
+    text-align: center;
+
+}
+
+.main-table {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    line-height: 2;
+}
+
+.input-field {
+    width: 300px;
+}
+
+.button-calculate,
+.pdf-button {
+    float: right;
+    margin: 10px;
+    background-color: sandybrown;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.bottom-line {
+    max-height: 40px;
+}
+
+.form-pdf-button {
+    display: flex;
+    justify-content: center;
+}
+
+.pdf-button {
+    background-color: lightsalmon;
+}
